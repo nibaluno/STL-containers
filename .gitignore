@@ -1,0 +1,43 @@
+# Qt / qmake
+*~
+*.autosave
+*.a
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.rej
+*.so
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user*
+CMakeLists.txt.user*
+
+# Build artifacts
+build/
+*.Debug
+*.Release
+*.dll
+*.exe
+
+# IDE / OS
+.DS_Store
+.directory
+Thumbs.db
+*.pdb
+*.ilk
+*.idb
+
+# Misc
+tempCodeRunnerFile
+*.pyc
