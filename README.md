@@ -40,8 +40,3 @@ cd string && qmake StringLib.pro && make
 # Vector 
 cd vector && c++ -std=c++17 vactor.cpp -o vector_demo && ./vector_demo
 
-# Qt: pair + vector
-cd demos/qt-pair-vector && qmake task_5.pro && make
-
-# Qt: map, set, unordered_map
-cd demos/qt-associative-containers && qmake task_3.pro && make
